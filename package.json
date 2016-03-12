@@ -1,0 +1,10 @@
+{
+	   "name": "jscs-outlander",
+	"version": "0.0.0",
+
+	"devDependencies":
+	{
+		"jscs":
+			"^2.11"
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"disallowSemicolons": true,
+
+	"requireSpaceAfterKeywords": true,
+	"requireNewlineBeforeBlockStatements": true,
+	"requireKeywordsOnNewLine": [ "else", "catch", "while" ],
+	"requireBlocksOnNewline": true,
+
+	"validateIndentation": "\t",
+	"validateLineBreaks": "LF",
+
+	"validateQuoteMarks": { "mark": "'", "escape": true },
+
+	"requireSpacesInsideObjectBrackets":
+	{
+		"allExcept": [ "}", ")" ]
+	},
+
+	"requireSpacesInFunction":
+	{
+		"beforeOpeningRoundBrace": true,
+		"beforeOpeningCurlyBrace": true
+	},
+
+	"requireSpaceBeforeObjectValues": true,
+
+	"requireLineBreakAfterVariableAssignment": true,
+
+	"requirePaddingNewLineAfterVariableDeclaration": true,
+
+	"requireLineFeedAtFileEnd": true,
+
+	"disallowSpacesInCallExpression": true,
+
+	"requireSpaceBetweenArguments": true,
+	"validateParameterSeparator": ", ",
+
+	"requireSpacesInsideArrayBrackets":
+	{
+		"allExcept": [ "[", "]", "{", "}" ]
+	},
+	"requireSpacesInsideObjectBrackets":
+	{
+		"allExcept": [ "}", ")" ]
+	},
+
+	"requireParenthesesAroundIIFE": true,
+
+	"disallowSpacesInsideParentheses": true,
+
+	"disallowTrailingWhitespace": true,
+
+	"disallowDanglingUnderscores": true,
+
+	"disallowQuotedKeysInObjects": { "allExcept": [ "reserved" ]},
+
+	"disallowMixedSpacesAndTabs": "smart",
+
+	"disallowMultiLineTernary": true,
+	"disallowNestedTernaries": true,
+
+	"disallowMultipleLineStrings": true,
+
+	"disallowMultipleVarDecl": true
+}
