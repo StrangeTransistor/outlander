@@ -1,16 +1,18 @@
 {
+	"validateIndentation": "\t",
+	"validateLineBreaks":  "LF",
+	"disallowMixedSpacesAndTabs": "smart",
+	"disallowTrailingWhitespace": true,
+	"requireLineFeedAtFileEnd": true,
+
 	"disallowSemicolons": true,
+
+	"validateQuoteMarks": { "mark": "'", "escape": true },
 
 	"requireSpaceAfterKeywords": true,
 	"requireNewlineBeforeBlockStatements": true,
 	"requireKeywordsOnNewLine": [ "else", "catch", "while" ],
 	"requireBlocksOnNewline": true,
-
-	"validateIndentation": "\t",
-	"validateLineBreaks": "LF",
-
-	"validateQuoteMarks": { "mark": "'", "escape": true },
-
 	"requireSpacesInsideObjectBrackets":
 	{
 		"allExcept": [ "}", ")" ]
@@ -21,45 +23,30 @@
 		"beforeOpeningRoundBrace": true,
 		"beforeOpeningCurlyBrace": true
 	},
-
-	"requireSpaceBeforeObjectValues": true,
-
-	"requireLineBreakAfterVariableAssignment": true,
-
-	"requirePaddingNewLineAfterVariableDeclaration": true,
-
-	"requireLineFeedAtFileEnd": true,
-
-	"disallowSpacesInCallExpression": true,
-
 	"requireSpaceBetweenArguments": true,
 	"validateParameterSeparator": ", ",
+	"disallowSpacesInCallExpression": true,
 
-	"requireSpacesInsideArrayBrackets":
-	{
-		"allExcept": [ "[", "]", "{", "}" ]
-	},
+	"requireSpaceBeforeObjectValues": true,
 	"requireSpacesInsideObjectBrackets":
 	{
 		"allExcept": [ "}", ")" ]
 	},
-
-	"requireParenthesesAroundIIFE": true,
-
+	"requireSpacesInsideArrayBrackets":
+	{
+		"allExcept": [ "[", "]", "{", "}" ]
+	},
 	"disallowSpacesInsideParentheses": true,
 
-	"disallowTrailingWhitespace": true,
-
-	"disallowDanglingUnderscores": true,
+	"disallowMultipleVarDecl": true,
+	"requireLineBreakAfterVariableAssignment": true,
+	"requirePaddingNewLineAfterVariableDeclaration": true,
 
 	"disallowQuotedKeysInObjects": { "allExcept": [ "reserved" ]},
 
-	"disallowMixedSpacesAndTabs": "smart",
-
+	"requireParenthesesAroundIIFE": true,
+	"disallowDanglingUnderscores": true,
 	"disallowMultiLineTernary": true,
 	"disallowNestedTernaries": true,
-
-	"disallowMultipleLineStrings": true,
-
-	"disallowMultipleVarDecl": true
+	"disallowMultipleLineStrings": true
 }
