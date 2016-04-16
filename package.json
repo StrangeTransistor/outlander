@@ -2,7 +2,11 @@
 	   "name": "js-outlander",
 	"version": "1.0.0",
 
-	"main": "outlander.jscs.json",
+	"files":
+	[
+		"outlander.eslint.js",
+		"outlander.jscs.json"
+	],
 
 	"keywords":
 	[
@@ -12,6 +16,9 @@
 	"devDependencies":
 	{
 		"jscs":
-			"^2.11"
+			"^2.11",
+
+		"eslint":
+			"^2.8"
 	}
 }
