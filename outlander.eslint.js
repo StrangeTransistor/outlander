@@ -38,6 +38,15 @@ module.exports =
 
 		'space-before-function-paren': [ 2, 'always' ],
 		// 'no-spaced-func': [ 2 ],
-		'arrow-spacing': [ 2, { before: true, after: true } ]
+		'arrow-spacing': [ 2, { before: true, after: true } ],
+
+		'one-var': [ 2, 'never' ],
+		'one-var-declaration-per-line': [ 2, 'always' ],
+		'newline-after-var': [ 2, 'always' ],
+
+		'no-delete-var': [ 2 ],
+		// 'no-undef': [ 2 ],
+		'no-undefined': [ 2 ],
+		'no-unused-vars': [ 2 ]
 	},
 }
