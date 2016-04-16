@@ -1,7 +1,8 @@
-# jscs-outlander
+# js-outlander
 
+## jscs
 ```sh
 $ cd
-$ npm i StrangeTransistor/jscs-outlander
-$ jscs -c ~/node_modules/jscs-outlander/outlander.jscs.json src/
+$ npm i StrangeTransistor/js-outlander
+$ jscs -c ~/node_modules/js-outlander/outlander.jscs.json src/
 ```
