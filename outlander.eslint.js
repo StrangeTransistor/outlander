@@ -6,6 +6,12 @@ module.exports =
 		ecmaVersion: 6,
 	},
 
+	env:
+	{
+		browser: true,
+		node: true
+	},
+
 	rules:
 	{
 		// indent: [ 2, 'tab' ],
@@ -46,7 +52,7 @@ module.exports =
 		'newline-after-var': [ 2, 'always' ],
 
 		'no-delete-var': [ 2 ],
-		// 'no-undef': [ 2 ],
+		'no-undef': [ 2 ],
 		'no-undefined': [ 2 ],
 		'no-unused-vars': [ 2 ],
 
