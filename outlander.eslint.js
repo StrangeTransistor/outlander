@@ -17,6 +17,7 @@ module.exports =
 		semi:  [ 2, 'never' ],
 		'comma-style': [ 2, 'last'],
 		quotes: [ 2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+		'quote-props': [ 2, 'consistent-as-needed' ],
 
 		'brace-style': [ 2, 'allman' ],
 
@@ -47,6 +48,12 @@ module.exports =
 		'no-delete-var': [ 2 ],
 		// 'no-undef': [ 2 ],
 		'no-undefined': [ 2 ],
-		'no-unused-vars': [ 2 ]
+		'no-unused-vars': [ 2 ],
+
+		// 'no-unexpected-multiline': [ 2 ],
+
+		'no-underscore-dangle': [ 2 ],
+		'no-multi-str': [ 2 ],
+		'no-nested-ternary': [ 2 ],
 	},
 }
