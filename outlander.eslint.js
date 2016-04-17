@@ -89,6 +89,7 @@ module.exports =
 		'no-extra-bind': 1,
 		'no-useless-call': 1,
 		'no-useless-escape': 1,
+		'no-ternary': 1,
 
 		'id-length': [ 1, { min: 1, max: 18 } ],
 		'max-depth': [ 1, 3 ],
