@@ -60,11 +60,17 @@ module.exports =
 		'no-irregular-whitespace': 2,
 		'no-negated-in-lhs': 2,
 		'no-sparse-arrays': 2,
-
-		// 'no-unexpected-multiline': 2,
-
+		'no-unexpected-multiline': 2,
 		'no-underscore-dangle': 2,
+		'no-unreachable': 2,
 		'no-multi-str': 2,
 		'no-nested-ternary': 2,
+		'valid-typeof': 2,
+
+		'max-depth': [ 1, 3 ],
+		'max-len': [ 1, 80, 3 ],
+		'max-params': [ 1, 3 ],
+		'max-nested-callbacks': [ 1, 3 ],
+		'max-statements': [ 1, 20 ],
 	},
 }
