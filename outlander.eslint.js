@@ -84,7 +84,7 @@ module.exports =
 		'no-with': 2,
 		'valid-typeof': 2,
 
-		/* eqeqeq: 1, */
+		 eqeqeq: 1,
 		'no-fallthrough': 1,
 		'no-extra-bind': 1,
 		'no-useless-call': 1,
