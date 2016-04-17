@@ -55,6 +55,11 @@ module.exports =
 		'no-undef': 2,
 		'no-undefined': 2,
 		'no-unused-vars': 2,
+		'no-cond-assign': 2,
+		'no-debugger': 2,
+		'no-irregular-whitespace': 2,
+		'no-negated-in-lhs': 2,
+		'no-sparse-arrays': 2,
 
 		// 'no-unexpected-multiline': 2,
 
