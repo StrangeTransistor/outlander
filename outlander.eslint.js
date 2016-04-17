@@ -25,10 +25,10 @@ module.exports =
 		quotes: [ 2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
 		'quote-props': [ 2, 'consistent-as-needed' ],
 
-		'brace-style': [ 2, 'allman' ],
+		'brace-style': [ 2, 'allman', { allowSingleLine: true } ],
 
 		'keyword-spacing': [ 2 ],
-		// 'block-spacing': [ 2, 'always' ],
+		'block-spacing': [ 2, 'always' ],
 		'object-curly-spacing': [ 2, 'always',
 		{
 			'objectsInObjects': false,
