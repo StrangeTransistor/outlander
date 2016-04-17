@@ -17,8 +17,8 @@ module.exports =
 		// indent: [ 2, 'tab' ],
 		'linebreak-style': [ 2, 'unix' ],
 		'no-mixed-spaces-and-tabs': [ 2, 'smart-tabs' ],
-		'no-trailing-spaces': [ 2 ],
-		'eol-last': [ 2 ],
+		'no-trailing-spaces': 2,
+		'eol-last': 2,
 
 		 semi:  [ 2, 'never' ],
 		'comma-style': [ 2, 'last'],
@@ -27,7 +27,7 @@ module.exports =
 
 		'brace-style': [ 2, 'allman', { allowSingleLine: true } ],
 
-		'keyword-spacing': [ 2 ],
+		'keyword-spacing': 2,
 		'block-spacing': [ 2, 'always' ],
 		'object-curly-spacing': [ 2, 'always',
 		{
@@ -44,22 +44,22 @@ module.exports =
 		'space-unary-ops': [ 2, { words: true, nonwords: true } ],
 
 		'space-before-function-paren': [ 2, 'always' ],
-		'no-spaced-func': [ 2 ],
+		'no-spaced-func': 2,
 		'arrow-spacing': [ 2, { before: true, after: true } ],
 
 		'one-var': [ 2, 'never' ],
 		'one-var-declaration-per-line': [ 2, 'always' ],
 		'newline-after-var': [ 2, 'always' ],
 
-		'no-delete-var': [ 2 ],
-		'no-undef': [ 2 ],
-		'no-undefined': [ 2 ],
-		'no-unused-vars': [ 2 ],
+		'no-delete-var': 2,
+		'no-undef': 2,
+		'no-undefined': 2,
+		'no-unused-vars': 2,
 
-		// 'no-unexpected-multiline': [ 2 ],
+		// 'no-unexpected-multiline': 2,
 
-		'no-underscore-dangle': [ 2 ],
-		'no-multi-str': [ 2 ],
-		'no-nested-ternary': [ 2 ],
+		'no-underscore-dangle': 2,
+		'no-multi-str': 2,
+		'no-nested-ternary': 2,
 	},
 }
