@@ -44,7 +44,7 @@ module.exports =
 		'space-unary-ops': [ 2, { words: true, nonwords: true } ],
 
 		'space-before-function-paren': [ 2, 'always' ],
-		// 'no-spaced-func': [ 2 ],
+		'no-spaced-func': [ 2 ],
 		'arrow-spacing': [ 2, { before: true, after: true } ],
 
 		'one-var': [ 2, 'never' ],
