@@ -14,7 +14,7 @@ module.exports =
 
 	rules:
 	{
-		// indent: [ 2, 'tab' ],
+		/* indent: [ 2, 'tab' ], */
 		'linebreak-style': [ 2, 'unix' ],
 		'no-mixed-spaces-and-tabs': [ 2, 'smart-tabs' ],
 		'no-trailing-spaces': 2,
