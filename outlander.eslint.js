@@ -20,7 +20,7 @@ module.exports =
 		'no-trailing-spaces': 2,
 		'eol-last': 2,
 
-		 semi:  [ 2, 'never' ],
+		 semi: [ 2, 'never' ],
 
 		'comma-style': [ 2, 'last' ],
 		'comma-spacing': [ 2, { before: false, after: true } ],
