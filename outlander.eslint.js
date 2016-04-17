@@ -20,9 +20,9 @@ module.exports =
 		'no-trailing-spaces': [ 2 ],
 		'eol-last': [ 2 ],
 
-		semi:  [ 2, 'never' ],
+		 semi:  [ 2, 'never' ],
 		'comma-style': [ 2, 'last'],
-		quotes: [ 2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+		 quotes: [ 2, 'single', { avoidEscape: true, allowTemplateLiterals: true } ],
 		'quote-props': [ 2, 'consistent-as-needed' ],
 
 		'brace-style': [ 2, 'allman', { allowSingleLine: true } ],
@@ -31,8 +31,8 @@ module.exports =
 		'block-spacing': [ 2, 'always' ],
 		'object-curly-spacing': [ 2, 'always',
 		{
-			'objectsInObjects': false,
-			// 'arraysInObjects': false
+			objectsInObjects: false,
+			/* 'arraysInObjects': false */
 		}],
 		'key-spacing': [ 2,
 		{
