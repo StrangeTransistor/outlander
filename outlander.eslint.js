@@ -12,6 +12,11 @@ module.exports =
 		node: true
 	},
 
+	"globals":
+	{
+		"Promise": true
+	},
+
 	rules:
 	{
 		/* indent: [ 2, 'tab' ], */
