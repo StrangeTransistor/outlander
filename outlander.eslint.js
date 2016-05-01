@@ -53,7 +53,6 @@ module.exports =
 		'dot-notation': 2,
 		'dot-location': [ 2, 'property' ],
 		'no-whitespace-before-property': 2,
-		'newline-per-chained-call': 1,
 
 		'space-unary-ops': [ 2, { words: true, nonwords: true } ],
 		'space-infix-ops': 2,
