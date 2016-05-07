@@ -91,7 +91,7 @@ module.exports =
 		'no-with': 2,
 		'valid-typeof': 2,
 
-		 eqeqeq: 1,
+		 eqeqeq: [ 1, 'smart' ],
 		'no-fallthrough': 1,
 		'default-case': 1,
 		'no-extra-bind': 1,
