@@ -63,9 +63,9 @@ module.exports =
 
 		'one-var': [ 2, 'never' ],
 		'one-var-declaration-per-line': [ 2, 'always' ],
-		'newline-after-var': [ 2, 'always' ],
 
-		'newline-before-return': 2,
+		'newline-after-var': [ 0, 'always' ],
+		'newline-before-return': 0,
 
 		'wrap-iife': [ 2, 'outside' ],
 
