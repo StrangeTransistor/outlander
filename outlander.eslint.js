@@ -12,9 +12,10 @@ module.exports =
 		node: true
 	},
 
-	"globals":
+	globals:
 	{
-		"Promise": true
+		Promise: true,
+		WeakMap: true
 	},
 
 	rules:
