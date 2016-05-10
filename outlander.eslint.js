@@ -34,7 +34,7 @@ module.exports =
 		 quotes: [ 2, 'single', { avoidEscape: true, allowTemplateLiterals: true } ],
 		'quote-props': [ 2, 'consistent-as-needed' ],
 
-		 curly: [ 2, 'all' ],
+		 curly: [ 2, 'multi-line' ],
 		'brace-style': [ 2, 'allman', { allowSingleLine: true } ],
 
 		'keyword-spacing': 2,
