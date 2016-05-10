@@ -55,7 +55,16 @@ module.exports =
 		'dot-location': [ 2, 'property' ],
 		'no-whitespace-before-property': 2,
 
-		'space-unary-ops': [ 2, { words: true, nonwords: true } ],
+		'space-unary-ops': [ 2,
+		{
+			words: true,
+			nonwords: true,
+			overrides:
+			{
+				'+': false,
+				'-': false
+			}
+		} ],
 		'space-infix-ops': 2,
 
 		'space-before-function-paren': [ 2, 'always' ],
