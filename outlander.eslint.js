@@ -115,7 +115,7 @@ module.exports =
 		'id-length': [ 1, { min: 1, max: 24 } ],
 		'max-depth': [ 1, 3 ],
 		'max-len': [ 1, 80, 3 ],
-		'max-params': [ 1, 3 ],
+		'max-params': [ 1, 4 ],
 		'max-nested-callbacks': [ 1, 3 ],
 		'max-statements': [ 1, 20, { ignoreTopLevelFunctions: true } ],
 		'max-statements-per-line': [ 1, { max: 1 } ]
