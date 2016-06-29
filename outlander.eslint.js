@@ -112,7 +112,7 @@ module.exports =
 		'no-implied-eval': 1,
 
 		 complexity: [ 1, 3 ],
-		'id-length': [ 1, { min: 1, max: 18 } ],
+		'id-length': [ 1, { min: 1, max: 24 } ],
 		'max-depth': [ 1, 3 ],
 		'max-len': [ 1, 80, 3 ],
 		'max-params': [ 1, 3 ],
