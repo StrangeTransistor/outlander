@@ -111,7 +111,7 @@ module.exports =
 		'no-unneeded-ternary': 1,
 		'no-implied-eval': 1,
 
-		 complexity: [ 1, 3 ],
+		 complexity: [ 1, 5 ],
 		'id-length': [ 1, { min: 1, max: 24 } ],
 		'max-depth': [ 1, 3 ],
 		'max-len': [ 1, 80, 3 ],
