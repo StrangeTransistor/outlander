@@ -100,6 +100,7 @@ module.exports =
 		'no-unused-expressions': [ 2, { allowShortCircuit: true } ],
 		'no-with': 2,
 		'valid-typeof': 2,
+		'prefer-arrow-callback': [ 2, { allowNamedFunctions: true } ],
 
 		 eqeqeq: [ 1, 'smart' ],
 		'no-fallthrough': 1,
@@ -110,6 +111,7 @@ module.exports =
 		'no-ternary': 1,
 		'no-unneeded-ternary': 1,
 		'no-implied-eval': 1,
+		'arrow-parens': [ 1, 'as-needed' ],
 
 		 complexity: [ 1, 5 ],
 		'id-length': [ 1, { min: 1, max: 24 } ],
