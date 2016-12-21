@@ -94,6 +94,7 @@ module.exports =
 		'no-throw-literal': 2,
 		'no-unexpected-multiline': 2,
 		'no-underscore-dangle': 2,
+		'no-unsafe-negation': 2,
 		'no-multi-str': 2,
 		'no-nested-ternary': 2,
 		'no-unused-expressions': [ 2, { allowShortCircuit: true } ],
