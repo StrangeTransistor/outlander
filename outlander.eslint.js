@@ -8,14 +8,9 @@ module.exports =
 
 	env:
 	{
+		es6: true,
 		browser: true,
-		node: true
-	},
-
-	globals:
-	{
-		Promise: true,
-		WeakMap: true
+		node: true,
 	},
 
 	rules:
