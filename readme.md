@@ -11,4 +11,4 @@ $ eslint -c ~/node_modules/js-outlander/outlander.eslint.js src/
 ```
 
 ## license
-MIT © 2016 Strider.
+MIT © 2017 Strider.
