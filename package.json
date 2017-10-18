@@ -13,15 +13,15 @@
 		"eslint"
 	],
 
+	"peerDependencies":
+	{
+		"eslint":
+			">=2"
+	},
+
 	"dependencies":
 	{
 		"babel-eslint":
 			"7"
-	},
-
-	"devDependencies":
-	{
-		"eslint":
-			"^2.8"
 	}
 }
