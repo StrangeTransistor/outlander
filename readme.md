@@ -10,10 +10,5 @@ $ npm i StrangeTransistor/js-outlander
 $ eslint -c ~/node_modules/js-outlander/outlander.eslint.js src/
 ```
 
-## jscs
-```sh
-$ jscs -c ~/node_modules/js-outlander/outlander.jscs.json src/
-```
-
 ## license
 MIT © 2016 Strider.

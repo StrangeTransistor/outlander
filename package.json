@@ -5,14 +5,12 @@
 
 	"files":
 	[
-		"outlander.eslint.js",
-		"outlander.jscs.json"
+		"outlander.eslint.js"
 	],
 
 	"keywords":
 	[
-		"eslint",
-		"jscs"
+		"eslint"
 	],
 
 	"dependencies":
@@ -24,9 +22,6 @@
 	"devDependencies":
 	{
 		"eslint":
-			"^2.8",
-
-		"jscs":
-			"^2.11"
+			"^2.8"
 	}
 }
