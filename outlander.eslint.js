@@ -113,6 +113,6 @@ module.exports =
 		'max-params': [ 1, 4 ],
 		'max-nested-callbacks': [ 1, 3 ],
 		'max-statements': [ 1, 20, { ignoreTopLevelFunctions: true } ],
-		'max-statements-per-line': [ 1, { max: 1 } ]
+		'max-statements-per-line': [ 1, { max: 2 } ]
 	},
 }
