@@ -50,11 +50,12 @@ module.exports =
 		'space-unary-ops': [ 2,
 		{
 			words: true,
-			nonwords: true,
+			// nonwords: true,
 			overrides:
 			{
-				'+': false,
-				'-': false
+				'~':  true,
+				'!':  true,
+				'!!': true,
 			}
 		} ],
 		'space-infix-ops': 2,
