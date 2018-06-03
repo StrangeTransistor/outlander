@@ -24,6 +24,6 @@
 	"dependencies":
 	{
 		"babel-eslint":
-			"7"
+			"8"
 	}
 }
