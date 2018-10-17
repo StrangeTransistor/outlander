@@ -10,6 +10,13 @@ module.exports =
 		node: true,
 	},
 
+	plugins:
+	[
+		// require.resolve('eslint-plugin-flowtype'),
+		// './node_modules/eslint-plugin-flowtype',
+		'flowtype',
+	],
+
 	rules:
 	{
 		/* indent: [ 2, 'tab' ], */
@@ -72,11 +79,14 @@ module.exports =
 
 		'wrap-iife': [ 2, 'outside' ],
 
-		'no-delete-var': 2,
 		'no-undef': 2,
+		'flowtype/define-flow-type': 2,
+		'no-unused-vars': 2,
+		'flowtype/use-flow-type': 2,
+
+		'no-delete-var': 2,
 		'no-undef-init': 2,
 		'no-undefined': 2,
-		'no-unused-vars': 2,
 		'no-cond-assign': 2,
 		'no-debugger': 2,
 		'no-func-assign': 2,

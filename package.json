@@ -18,7 +18,10 @@
 	"peerDependencies":
 	{
 		"eslint":
-			"4"
+			"4",
+
+		"eslint-plugin-flowtype":
+			"3"
 	},
 
 	"dependencies":
