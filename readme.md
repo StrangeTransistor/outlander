@@ -10,7 +10,7 @@ $ npm i StrangeTransistor/js-outlander
 $ eslint -c ~/node_modules/js-outlander/outlander.eslint.js src/
 
 # +Flow
-$ eslint -c ~/node_modules/js-outlander/outlander-flow.eslint.js src/
+$ eslint -c ~/node_modules/js-outlander/flow.js src/
 ```
 
 `.eslintrc.js`
@@ -20,7 +20,7 @@ module.exports =
 	extends: require.resolve('js-outlander'),
 
 	// +Flow
-	extends: require.resolve('js-outlander/outlander-flow.eslint'),
+	extends: require.resolve('js-outlander/flow'),
 }
 ```
 
