@@ -12,7 +12,9 @@
 
 	"keywords":
 	[
-		"eslint"
+		"eslint",
+		"flow",
+		"allman"
 	],
 
 	"peerDependencies":
