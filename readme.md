@@ -8,6 +8,9 @@ $ npm i StrangeTransistor/js-outlander
 ## eslint
 ```sh
 $ eslint -c ~/node_modules/js-outlander/outlander.eslint.js src/
+
+# +Flow
+$ eslint -c ~/node_modules/js-outlander/outlander-flow.eslint.js src/
 ```
 
 `.eslintrc.js`
@@ -15,6 +18,9 @@ $ eslint -c ~/node_modules/js-outlander/outlander.eslint.js src/
 module.exports =
 {
 	extends: require.resolve('js-outlander'),
+
+	// +Flow
+	extends: require.resolve('js-outlander/outlander-flow.eslint'),
 }
 ```
 
