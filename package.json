@@ -1,6 +1,6 @@
 {
 	   "name": "js-outlander",
-	"version": "2.5.0",
+	"version": "2.5.1",
 	"license": "ISC",
 
 	"main": "outlander.eslint.js",
@@ -21,7 +21,7 @@
 	"peerDependencies":
 	{
 		"eslint":
-			"4 || 5"
+			"4 || 5 || 6"
 	},
 
 	"optionalDependencies":
@@ -33,6 +33,6 @@
 	"dependencies":
 	{
 		"babel-eslint":
-			"8"
+			"10"
 	}
 }
