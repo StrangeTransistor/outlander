@@ -3,6 +3,14 @@ module.exports =
 {
 	parser: require.resolve('babel-eslint'),
 
+	/*
+	plugins:
+	[
+		'eslint-plugin-node',
+		'eslint-plugin-flowtype',
+	],
+	*/
+
 	env:
 	{
 		es6: true,
@@ -115,6 +123,6 @@ module.exports =
 		'max-params': [ 1, 4 ],
 		'max-nested-callbacks': [ 1, 3 ],
 		'max-statements': [ 1, 20, { ignoreTopLevelFunctions: true } ],
-		'max-statements-per-line': [ 1, { max: 2 } ]
+		'max-statements-per-line': [ 1, { max: 2 } ],
 	},
 }
