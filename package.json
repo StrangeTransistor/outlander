@@ -8,14 +8,16 @@
 	"files":
 	[
 		"outlander.eslint.js",
+		"node.js",
 		"flow.js"
 	],
 
 	"keywords":
 	[
 		"eslint",
-		"flow",
-		"allman"
+		"node",
+		"allman",
+		"flow"
 	],
 
 	"peerDependencies":
