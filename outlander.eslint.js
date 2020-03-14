@@ -119,7 +119,13 @@ module.exports =
 		 complexity: [ 1, 5 ],
 		'id-length': [ 1, { min: 1, max: 24 } ],
 		'max-depth': [ 1, 3 ],
-		'max-len': [ 1, 80, 3 ],
+		'max-len': [ 1,
+		{
+			code: 100,
+			tabWidth: 3,
+			ignoreComments: true,
+		}
+		],
 		'max-params': [ 1, 4 ],
 		'max-nested-callbacks': [ 1, 3 ],
 		'max-statements': [ 1, 20, { ignoreTopLevelFunctions: true } ],
