@@ -103,6 +103,8 @@ module.exports =
 		'no-with': 2,
 		'valid-typeof': 2,
 		'prefer-arrow-callback': [ 2, { allowNamedFunctions: true } ],
+		'require-await': 2,
+		'no-return-await': 2,
 
 		 eqeqeq: [ 1, 'smart' ],
 		'no-fallthrough': 1,
