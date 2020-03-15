@@ -70,7 +70,11 @@ module.exports =
 
 		'space-before-function-paren': [ 2, 'always' ],
 		'func-call-spacing': 2,
+
+		'switch-colon-spacing': [ 2 ],
 		'arrow-spacing': [ 2, { before: true, after: true } ],
+		'rest-spread-spacing': [ 2, 'never' ],
+		'template-curly-spacing': [ 2, 'always' ],
 
 		'one-var': [ 2, 'never' ],
 		'one-var-declaration-per-line': [ 2, 'always' ],
@@ -95,7 +99,7 @@ module.exports =
 		'no-underscore-dangle': 2,
 		'no-unsafe-negation': 2,
 		'no-multi-str': 2,
-		'no-nested-ternary': 2,
+		'no-ternary': 2,
 		'no-unused-expressions': [ 2, { allowShortCircuit: true } ],
 		'no-empty-pattern': 2,
 		'no-with': 2,
@@ -112,10 +116,11 @@ module.exports =
 		'no-unreachable': 1,
 		'no-useless-call': 1,
 		'no-useless-escape': 1,
-		'no-ternary': 1,
-		'no-unneeded-ternary': 1,
+		'no-lonely-if': 1,
 		'no-implied-eval': 1,
 		// 'arrow-parens': [ 1, 'as-needed' ],
+		'object-shorthand': [ 1 ],
+		'no-useless-rename': [ 1 ],
 
 		 complexity: [ 1, 5 ],
 		'id-length': [ 1, { min: 1, max: 24 } ],
