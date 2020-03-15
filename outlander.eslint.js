@@ -69,14 +69,11 @@ module.exports =
 		'space-infix-ops': 2,
 
 		'space-before-function-paren': [ 2, 'always' ],
-		'no-spaced-func': 2,
+		'func-call-spacing': 2,
 		'arrow-spacing': [ 2, { before: true, after: true } ],
 
 		'one-var': [ 2, 'never' ],
 		'one-var-declaration-per-line': [ 2, 'always' ],
-
-		'newline-after-var': [ 0, 'always' ],
-		'newline-before-return': 0,
 
 		'wrap-iife': [ 2, 'outside' ],
 
@@ -92,7 +89,6 @@ module.exports =
 		'no-irregular-whitespace': 2,
 		'no-return-assign': 2,
 		'no-import-assign': 2,
-		'no-negated-in-lhs': 2,
 		'no-sparse-arrays': 2,
 		'no-throw-literal': 2,
 		'no-unexpected-multiline': 2,
