@@ -29,7 +29,7 @@
 	"optionalDependencies":
 	{
 		"eslint-plugin-node":
-			"10",
+			"11",
 
 		"eslint-plugin-flowtype":
 			"3"
