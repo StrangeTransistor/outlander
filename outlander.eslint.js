@@ -30,6 +30,7 @@ module.exports =
 
 		'comma-style': [ 2, 'last' ],
 		'comma-spacing': [ 2, { before: false, after: true } ],
+		/* 'comma-dangle': [ 2, 'always-multiline' ], */
 
 		 quotes: [ 2, 'single', { avoidEscape: true, allowTemplateLiterals: true } ],
 		'quote-props': [ 2, 'consistent-as-needed' ],
