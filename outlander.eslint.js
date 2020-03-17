@@ -122,6 +122,7 @@ module.exports =
 		// 'arrow-parens': [ 1, 'as-needed' ],
 		'object-shorthand': [ 1 ],
 		'no-useless-rename': [ 1 ],
+		'no-const-assign': [ 1 ],
 
 		 complexity: [ 1, 5 ],
 		'id-length': [ 1, { min: 1, max: 24 } ],
