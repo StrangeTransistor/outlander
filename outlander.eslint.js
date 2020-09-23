@@ -18,6 +18,8 @@ module.exports =
 		node: true,
 	},
 
+	reportUnusedDisableDirectives: true,
+
 	rules:
 	{
 		/* indent: [ 2, 'tab' ], */
