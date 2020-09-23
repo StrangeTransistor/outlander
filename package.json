@@ -1,6 +1,6 @@
 {
 	   "name": "js-outlander",
-	"version": "2.9.0-pre",
+	"version": "2.9.0",
 	"license": "ISC",
 
 	"main": "outlander.eslint.js",
