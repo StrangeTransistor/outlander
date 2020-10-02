@@ -1,6 +1,6 @@
 {
 	   "name": "js-outlander",
-	"version": "2.9.0",
+	"version": "2.10.0",
 	"license": "ISC",
 
 	"main": "outlander.eslint.js",
@@ -17,8 +17,10 @@
 	"keywords":
 	[
 		"eslint",
-		"node",
 		"allman",
+		"node",
+		"typescript",
+		"react",
 		"flow"
 	],
 
