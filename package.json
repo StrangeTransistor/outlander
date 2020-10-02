@@ -9,6 +9,7 @@
 	[
 		"outlander.eslint.js",
 		"node.js",
+		"typescript.js",
 		"react.js",
 		"flow.js"
 	],
@@ -29,8 +30,15 @@
 
 	"optionalDependencies":
 	{
+		"@typescript-eslint/parser":
+			"4",
+
+
 		"eslint-plugin-node":
 			"11",
+
+		"@typescript-eslint/eslint-plugin":
+			"4",
 
 		"eslint-plugin-react":
 			"7",
