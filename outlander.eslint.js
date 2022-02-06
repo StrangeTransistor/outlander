@@ -1,15 +1,19 @@
 
 module.exports =
 {
-	parser: require.resolve('babel-eslint'),
-
-	/*
-	plugins:
-	[
-		'eslint-plugin-node',
-		'eslint-plugin-flowtype',
-	],
-	*/
+	parser: require.resolve('@babel/eslint-parser'),
+	parserOptions:
+	{
+		requireConfigFile: false,
+		babelOptions:
+		{
+			plugins:
+			[
+				require.resolve('@babel/plugin-transform-react-jsx'),
+				require.resolve('@babel/plugin-syntax-flow'),
+			],
+		},
+	},
 
 	env:
 	{
