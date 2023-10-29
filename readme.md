@@ -43,4 +43,4 @@ module.exports =
 ```
 
 ## license
-ISC © 2022 Strider.
+ISC © 2023 Strider.
