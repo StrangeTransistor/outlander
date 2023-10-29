@@ -89,7 +89,7 @@ module.exports =
 		'wrap-iife': [ 2, 'outside' ],
 
 		'no-undef': 2,
-		'no-unused-vars': 2,
+		'no-unused-vars': [ 2, { varsIgnorePattern: '^_$' } ],
 
 		'no-delete-var': 2,
 		'no-undef-init': 2,
@@ -113,10 +113,10 @@ module.exports =
 		'valid-typeof': 2,
 		'no-inner-declarations': [ 2, 'functions' ],
 		'prefer-arrow-callback': [ 2, { allowNamedFunctions: true } ],
-		'require-await': 2,
 		'no-return-await': 2,
 
 		 eqeqeq: [ 1, 'smart' ],
+		'require-await': 1,
 		'no-fallthrough': 1,
 		'default-case': 1,
 		'no-extra-bind': 1,

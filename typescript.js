@@ -21,8 +21,11 @@ module.exports =
 
 	rules:
 	{
+		'require-await': 0,
+		'default-case': 0,
+
 		'no-unused-vars': 0,
-		'@typescript-eslint/no-unused-vars': 2,
+		'@typescript-eslint/no-unused-vars': [ 2, { varsIgnorePattern: '^_$' } ],
 
 		'no-unused-expressions': 0,
 		'@typescript-eslint/no-unused-expressions': 2,
