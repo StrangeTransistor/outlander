@@ -26,6 +26,8 @@ module.exports =
 
 	rules:
 	{
+		'no-return-await': 0,
+
 		/* indent: [ 2, 'tab' ], */
 		'linebreak-style': [ 2, 'unix' ],
 		'no-mixed-spaces-and-tabs': [ 2, 'smart-tabs' ],
@@ -113,7 +115,6 @@ module.exports =
 		'valid-typeof': 2,
 		'no-inner-declarations': [ 2, 'functions' ],
 		'prefer-arrow-callback': [ 2, { allowNamedFunctions: true } ],
-		'no-return-await': 2,
 
 		 eqeqeq: [ 1, 'smart' ],
 		'require-await': 1,
