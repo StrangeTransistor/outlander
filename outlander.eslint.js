@@ -109,7 +109,13 @@ module.exports =
 		'no-unsafe-negation': 2,
 		'no-multi-str': 2,
 		'no-ternary': 2,
-		'no-unused-expressions': [ 2, { allowShortCircuit: true } ],
+		'no-unused-expressions': [ 2,
+		{
+			allowShortCircuit: true,
+			allowTaggedTemplates: true,
+			enforceForJSX: true,
+		}
+		],
 		'no-empty-pattern': 2,
 		'no-with': 2,
 		'valid-typeof': 2,

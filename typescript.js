@@ -28,6 +28,12 @@ module.exports =
 		'@typescript-eslint/no-unused-vars': [ 2, { varsIgnorePattern: '^_$' } ],
 
 		'no-unused-expressions': 0,
-		'@typescript-eslint/no-unused-expressions': 2,
+		'@typescript-eslint/no-unused-expressions': [ 2,
+		{
+			allowShortCircuit: true,
+			allowTaggedTemplates: true,
+			enforceForJSX: true,
+		}
+		],
 	},
 }
