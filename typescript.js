@@ -1,39 +1,36 @@
 
+var outlander = require('./outlander.eslint.js')
+
+
 module.exports =
-{
-	extends: require.resolve('./outlander.eslint'),
+[
+	...outlander,
 
-	parser: require.resolve('@typescript-eslint/parser'),
-	parserOptions:
 	{
-		sourceType: 'module',
-	},
-
-	plugins:
-	[
-		// https://github.com/eslint/eslint/issues/10644
-		// https://github.com/eslint/eslint/issues/10644#issuecomment-430726105
-
-		// require.resolve('eslint-plugin-node'),
-		// './node_modules/eslint-plugin-node',
-		'@typescript-eslint',
-	],
-
-	rules:
-	{
-		'require-await': 0,
-		'default-case': 0,
-
-		'no-unused-vars': 0,
-		'@typescript-eslint/no-unused-vars': [ 2, { varsIgnorePattern: '^_$' } ],
-
-		'no-unused-expressions': 0,
-		'@typescript-eslint/no-unused-expressions': [ 2,
+		languageOptions:
 		{
-			allowShortCircuit: true,
-			allowTaggedTemplates: true,
-			enforceForJSX: true,
-		}
-		],
-	},
-}
+			parser: require('@typescript-eslint/parser'),
+		},
+		plugins:
+		{
+			'@typescript-eslint': require('@typescript-eslint/eslint-plugin'),
+		},
+		rules:
+		{
+			'require-await': 0,
+			'default-case': 0,
+
+			'no-unused-vars': 0,
+			'@typescript-eslint/no-unused-vars': [ 2, { varsIgnorePattern: '^_$' } ],
+
+			'no-unused-expressions': 0,
+			'@typescript-eslint/no-unused-expressions': [ 2,
+			{
+				allowShortCircuit: true,
+				allowTaggedTemplates: true,
+				enforceForJSX: true,
+			}
+			],
+		},
+	}
+]

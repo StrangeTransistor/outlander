@@ -1,21 +1,35 @@
+/* @deprecated */
+/*
+
+		"eslint-plugin-flowtype":
+			"8"
+
+		"eslint-plugin-flowtype":           { "optional": true }
+
+		"@babel/plugin-syntax-flow":
+			"7",
+
+		require.resolve('@babel/plugin-syntax-flow'),
+
+*/
+
+var outlander = require('./outlander.eslint.js')
+
 
 module.exports =
-{
-	extends: require.resolve('./outlander.eslint'),
+[
+	...outlander,
 
-	plugins:
-	[
-		// https://github.com/eslint/eslint/issues/10644
-		// https://github.com/eslint/eslint/issues/10644#issuecomment-430726105
-
-		// require.resolve('eslint-plugin-flowtype'),
-		// './node_modules/eslint-plugin-flowtype',
-		'flowtype',
-	],
-
-	rules:
 	{
-		'flowtype/define-flow-type': 2,
-		'flowtype/use-flow-type': 2,
-	},
-}
+		plugins:
+		{
+			// eslint-disable-next-line node/no-missing-require
+			flowtype: require('eslint-plugin-flowtype'),
+		},
+		rules:
+		{
+			'flowtype/define-flow-type': 2,
+			'flowtype/use-flow-type': 2,
+		},
+	}
+]

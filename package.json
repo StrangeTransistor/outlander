@@ -1,17 +1,29 @@
 {
-	   "name": "js-outlander",
-	"version": "2.12.1",
+	   "name": "outlander",
+	"version": "3.0.0-pre",
 	"license": "ISC",
 
 	"main": "outlander.eslint.js",
+	"exports":
+	{
+		".": "./outlander.eslint.js",
+		"./outlander": "./outlander.eslint.js",
+
+		"./globals": "./globals.js",
+
+		"./node": "./node.js",
+		"./typescript": "./typescript.js",
+		"./react": "./react.js"
+	},
 
 	"files":
 	[
 		"outlander.eslint.js",
+		"globals.js",
+
 		"node.js",
 		"typescript.js",
-		"react.js",
-		"flow.js"
+		"react.js"
 	],
 
 	"keywords":
@@ -20,49 +32,56 @@
 		"allman",
 		"node",
 		"typescript",
-		"react",
-		"flow"
+		"react"
 	],
+
+	"scripts":
+	{
+		"test": "eslint",
+
+		"e0": "eslint",
+		"e1": "eslint -c outlander.eslint.js",
+
+		"node": "eslint -c node.js",
+		"ts": "eslint -c typescript.js",
+		"react": "eslint -c react.js"
+	},
 
 	"peerDependencies":
 	{
 		"eslint":
-			"4 - 8",
+			"9",
 
 		"@typescript-eslint/parser":
-			"4 - 6",
-
-
-		"eslint-plugin-node":
-			"11",
-
-		"@typescript-eslint/eslint-plugin":
-			"4 - 6",
-
-		"eslint-plugin-react":
 			"7",
 
-		"eslint-plugin-flowtype":
-			"5 - 8"
+
+		"eslint-plugin-n":
+			"17",
+
+		"@typescript-eslint/eslint-plugin":
+			"7",
+
+		"eslint-plugin-react":
+			"7"
 	},
 	"peerDependenciesMeta":
 	{
 		"@typescript-eslint/parser":        { "optional": true },
 		"eslint-plugin-node":               { "optional": true },
 		"@typescript-eslint/eslint-plugin": { "optional": true },
-		"eslint-plugin-react":              { "optional": true },
-		"eslint-plugin-flowtype":           { "optional": true }
+		"eslint-plugin-react":              { "optional": true }
 	},
 
 	"dependencies":
 	{
+		"globals":
+			"15",
+
 		"@babel/eslint-parser":
 			"7",
 
 		"@babel/plugin-transform-react-jsx":
-			"7",
-
-		"@babel/plugin-syntax-flow":
 			"7",
 
 		"@babel/core":
@@ -72,6 +91,6 @@
 	"devDependencies":
 	{
 		"eslint":
-			"8"
+			"9"
 	}
 }

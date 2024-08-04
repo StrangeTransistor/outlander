@@ -1,28 +1,32 @@
+/* eslint-disable quote-props */
+/* eslint-disable id-length */
+
 
 module.exports =
-{
-	parser: require.resolve('@babel/eslint-parser'),
-	parserOptions:
+[{
+	linterOptions:
 	{
-		requireConfigFile: false,
-		babelOptions:
+		reportUnusedDisableDirectives: true,
+	},
+
+	languageOptions:
+	{
+		parser: require('@babel/eslint-parser'),
+		parserOptions:
 		{
-			plugins:
-			[
-				require.resolve('@babel/plugin-transform-react-jsx'),
-				require.resolve('@babel/plugin-syntax-flow'),
-			],
+			requireConfigFile: false,
+			babelOptions:
+			{
+				plugins:
+				[
+					require.resolve('@babel/plugin-transform-react-jsx'),
+				],
+			},
 		},
+		globals:
+		{
+		}
 	},
-
-	env:
-	{
-		es6: true,
-		browser: true,
-		node: true,
-	},
-
-	reportUnusedDisableDirectives: true,
 
 	rules:
 	{
@@ -154,4 +158,4 @@ module.exports =
 		'max-statements': [ 1, 20, { ignoreTopLevelFunctions: true } ],
 		'max-statements-per-line': [ 1, { max: 2 } ],
 	},
-}
+}]
