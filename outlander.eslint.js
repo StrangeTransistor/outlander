@@ -1,6 +1,11 @@
 /* eslint-disable quote-props */
 /* eslint-disable id-length */
 
+// https://eslint.org/blog/2022/08/new-config-system-part-2/#goodbye-extends%2C-hello-flat-cascade
+// https://eslint.org/docs/latest/use/configure/migration-guide#--ext
+
+// TODO: https://eslint.org/docs/latest/rules/max-lines-per-function
+// TODO: https://eslint.org/docs/latest/rules/no-constant-binary-expression
 
 module.exports =
 [{
